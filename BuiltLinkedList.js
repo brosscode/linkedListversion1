@@ -11,7 +11,7 @@
 var myList = new linkedList();
 
 
-let Node = function() {
+let Node = function(value) {
         // value at this node.
         this.value = value;
         // next node in chain (defaults to null (list will end on null)). 
